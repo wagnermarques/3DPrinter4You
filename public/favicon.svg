@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" fill="none">
+  <defs>
+    <linearGradient id="primaryGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0284c7" />
+      <stop offset="100%" stop-color="#0369a1" />
+    </linearGradient>
+    <linearGradient id="accentGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#f97316" />
+      <stop offset="100%" stop-color="#ea580c" />
+    </linearGradient>
+  </defs>
+  <!-- Background Base -->
+  <rect width="64" height="64" rx="16" fill="url(#primaryGrad)"/>
+
+  <!-- Printer Frame Base -->
+  <rect x="10" y="48" width="44" height="6" rx="2" fill="#ffffff" opacity="0.95"/>
+  <rect x="14" y="44" width="36" height="4" rx="1" fill="#cbd5e1"/>
+
+  <!-- Vertical Z-axis Rails -->
+  <rect x="12" y="14" width="4" height="34" rx="2" fill="#e2e8f0"/>
+  <rect x="48" y="14" width="4" height="34" rx="2" fill="#e2e8f0"/>
+  <rect x="12" y="12" width="40" height="4" rx="2" fill="#ffffff" opacity="0.9"/>
+
+  <!-- X-Axis Gantry Bar -->
+  <rect x="12" y="24" width="40" height="4" rx="1.5" fill="#94a3b8"/>
+
+  <!-- Extruder Print Head -->
+  <rect x="27" y="21" width="10" height="9" rx="2" fill="#1e293b"/>
+  <!-- Nozzle -->
+  <polygon points="30,30 34,30 32,34" fill="url(#accentGrad)"/>
+  
+  <!-- Laser / Filament Layer -->
+  <circle cx="32" cy="35" r="1.5" fill="#facc15"/>
+
+  <!-- 3D Printed Isometric Cube -->
+  <polygon points="32,36 42,41 32,46 22,41" fill="#38bdf8"/>
+  <polygon points="22,41 32,46 32,51 22,46" fill="#0284c7"/>
+  <polygon points="42,41 32,46 32,51 42,46" fill="#0369a1"/>
+</svg>
