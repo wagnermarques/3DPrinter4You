@@ -43,7 +43,7 @@ jobs:
       - name: Build PWA with Vite
         run: npm run build
         env:
-          VITE_BASE_PATH: '/3dprinterforyou/'
+          VITE_BASE_PATH: '/3DPrinter4You/'
 
       - name: Setup Pages
         uses: actions/configure-pages@v4
