@@ -15,7 +15,8 @@
     "build": "npm run build --workspace=@fzl/webcomponents-lit --if-present && npm run build --workspace=@fzl/webcomponents-es6 --if-present && vite build",
     "preview": "vite preview",
     "serve": "npm run build && npm run preview",
-    "icons": "appshell-generate-icons"
+    "icons": "appshell-generate-icons",
+    "test": "node --test src/services/*.test.js"
   },
   "dependencies": {
     "@fzl/design-tokens": "*",
